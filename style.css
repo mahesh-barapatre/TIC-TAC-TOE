@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+#board{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+
+
+button{
+    background-color: rgba(0, 255, 255, 0.792);
+    color: rgba(0, 255, 255, 0.792);
+    flex: 1 0 25%;
+    height: 1.5cm;
+    width: .5cm;
+    margin :.05cm;
+    font-size: xx-large;
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+    border-style: none;
+}
+button:hover{
+    background-color: rgb(43, 171, 226);
+    transform: scale(1.2);
+    border-style: none;
+    border-radius: 5%;
+
+}
+
+button:disabled,
+button[disabled]{
+    background-color: aliceblue;
+    cursor: default;
+}
+
+#score{
+    width: 5.2cm;
+    height: fit-content;
+    margin-top: 5%;
+    padding: 1%;
+    font-style: oblique;
+    font-family: cursive;
+}
+.num{
+    font-family: sans-serif;
+    margin: 2%;
+}
+#win_area{
+    text-align: center;
+}
+.img1{
+    width: 0%;
+    transition: all 1s ease-in-out;
+}
