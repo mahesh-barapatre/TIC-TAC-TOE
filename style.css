@@ -63,3 +63,51 @@ button[disabled]{
     width: 0%;
     transition: all 1s ease-in-out;
 }
+
+#play-with-ai-link {
+    background-color: rgba(0, 255, 255, 0.792);
+    color: rgba(0, 0, 0, 0.9); 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+#play-with-ai-link:hover {
+    background-color: rgb(43, 171, 226);
+    transform: scale(1.05);
+}
+
+#play-with-ai-link:disabled,
+#play-with-ai-link[disabled] {
+    background-color: aliceblue;
+    cursor: not-allowed;
+}
+
+#two-player-mode-link {
+    background-color: rgba(0, 255, 255, 0.792);
+    color: rgba(0, 0, 0, 0.9); 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+#two-player-mode-link:hover {
+    background-color: rgb(43, 171, 226);
+    transform: scale(1.05);
+}
+
+#two-player-mode-link:disabled,
+#two-player-mode-link[disabled] {
+    background-color: aliceblue;
+    cursor: not-allowed;
+}
